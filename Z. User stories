@@ -1,0 +1,8 @@
+--1 Aircraft related
+
+US1.1 - Je dois pouvoir filtrer les avions par nom, modele et statut de maintenance ainsi que pouvoir ordonner les different champs en cliquant sur les headers du tableau
+
+
+
+--2 Client
+US2.X - Integration avec calendrier souhaite (google calendar)

@@ -1,0 +1,51 @@
+*.log
+.DS_Store
+Thumbs.db
+
+# Env files (keep example)
+.env
+.env.*
+!.env.example
+
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+/auth.json
+
+# Node / build
+/node_modules
+/public/build
+/public/hot
+
+# Public storage symlink (keep out of git)
+/public/storage
+
+# Laravel storage (never commit)
+/storage
+/storage/*.key
+/storage/pail
+!/storage/framework/views/.gitignore
+
+# Cache
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# PHP deps
+/vendor
+
+# Homestead
+Homestead.json
+Homestead.yaml
+
+# Dumps / archives
+*.sql
+*.dump
+*.zip
+*.bak
+Microsoft Windows [Version*
+*.exe
